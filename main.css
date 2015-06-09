@@ -1,0 +1,115 @@
+body {
+  background-color: #D0CABF;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px; }
+
+h1, h3 {
+  font-weight: 300; }
+
+.home-section {
+  margin: 2%;
+  width: 96%; }
+
+header {
+  background-color: #4B4D52;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-top: 20%; }
+  @media screen and (min-width: 768px) {
+    header {
+      height: 250px; } }
+  @media screen and (min-width: 1200px) {
+    header {
+      height: 500px; } }
+  header h1 {
+    font-size: 48px;
+    text-align: center;
+    color: #DE8642; }
+    @media screen and (min-width: 1200px) {
+      header h1 {
+        margin-top: 30%; } }
+  header h3 {
+    text-align: end;
+    color: #D0CABF; }
+
+.about-me-container {
+  border: 3px dashed #4B4D52;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 22px;
+  font-weight: 400;
+  color: #4B4D52;
+  text-align: center; }
+
+.picture-container {
+  max-width: 200px;
+  margin: auto;
+  padding-right: 10px;
+  box-shadow: 10px 10px 10px rgba(75, 77, 82, 0.5); }
+
+.picture-container img {
+  max-width: 200px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%); }
+  .picture-container img:hover {
+    -webkit-filter: none;
+            filter: none;
+    -webkit-transition: all 1s ease;
+            transition: all 1s ease; }
+
+.skills-container {
+  border: 3px dashed #4B4D52;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 22px;
+  font-weight: 400;
+  color: #4B4D52;
+  text-align: start;
+  -webkit-transition: all 1s ease;
+          transition: all 1s ease; }
+  .skills-container .row {
+    margin: 10px 0px; }
+  .skills-container:hover {
+    color: #DE8642;
+    background-color: #4B4D52; }
+  .skills-container h1 {
+    margin-bottom: 30px;
+    font-style: italic;
+    text-align: center; }
+
+.work-info-section {
+  background-color: #4B4D52;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center; }
+  .work-info-section h1 {
+    color: #DE8642;
+    font-style: italic; }
+  .work-info-section ul {
+    color: #FFF2E7;
+    list-style: none; }
+
+.contact-info-section {
+  background-color: #4B4D52;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #FFF2E7;
+  font-weight: 400; }
+  .contact-info-section ul {
+    list-style: none; }
+  .contact-info-section a {
+    color: #FFF2E7;
+    margin: 0.8em; }
+    .contact-info-section a:hover {
+      color: #DE8642;
+      -webkit-transition: color 1s ease;
+              transition: color 1s ease; }
+
+/*# sourceMappingURL=main.css.map */
